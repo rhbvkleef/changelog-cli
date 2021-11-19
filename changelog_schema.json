@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://rolfvankleef.nl/release-cli/changelog.schema.json",
+    "title": "Changelog Entry",
+    "description": "A Changelog Entry",
+    "type": "object",
+    "properties": {
+        "description": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "authors": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}
